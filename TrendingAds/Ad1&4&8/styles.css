@@ -609,11 +609,26 @@ footer a:hover {
     width: 8rem;
   }
 
+  .long-property-description {
+    width: 20rem;
+  }
+
+  .price-contact {
+    flex-direction: column;
+  }
+  .send-message {
+    order: 2;
+  }
+  .explicit-details {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
   .eye-icon {
     position: absolute;
     bottom: 102.5rem;
     top: 23.5rem;
-    right: 4.2rem;
+    right: 1.2rem;
   }
   .header-vip-label {
     margin-right: 0rem;
@@ -623,10 +638,14 @@ footer a:hover {
   }
   .description {
     max-width: 23.4375rem;
-    height: 67.5rem;
+    height: 88.5rem;
   }
 
   .similar {
+    margin-left: 0rem;
+  }
+
+  .send-message {
     margin-left: 0rem;
   }
 
